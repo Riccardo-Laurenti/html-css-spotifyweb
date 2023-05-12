@@ -51,8 +51,8 @@ main {
 
 .sidebar-left {
     background-color: rgb(231, 178, 178);
-    height: 800px;
-    width: 2800px;
+    min-width: 250px;
+    min-height: 1200px;
 }
 
 /*---Center Main */
