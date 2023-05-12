@@ -34,10 +34,7 @@ img {
     margin: 0 auto;
 }
 
-header {
-    height: 90px;
-    background-color: aqua;
-}
+
 
 
 
@@ -46,6 +43,7 @@ main {
     overflow: auto;
     height: calc(100vh - 90px);
 }
+
 /*-----   Footer   -----*/
 
 #footer-app {
