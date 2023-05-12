@@ -37,14 +37,45 @@ img {
 
 
 
+/*-----   MAIN   -----*/
+
 
 main {
     background-color: red;
     overflow: auto;
     height: calc(100vh - 90px);
+    display: flex;
 }
 
-/*-----   Footer   -----*/
+/*---Sidebar---*/
+
+.sidebar-left {
+    background-color: rgb(231, 178, 178);
+    height: 800px;
+    width: 2800px;
+}
+
+/*---Center Main */
+
+.center-main {
+
+}
+
+
+.header-cont {
+  height: 70px;
+  width: 100%;
+  background: rgb(85, 248, 52);
+}
+
+
+.center-cont {
+    width: 100%;
+}
+
+
+
+/*-----   FOOTER  -----*/
 
 #footer-app {
     height: 90px;
