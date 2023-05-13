@@ -25,7 +25,9 @@ img {
     max-width: 100%;
 }
 
-
+a {
+    text-decoration: none;
+}
 /*----Container----*/
 
 
@@ -52,7 +54,7 @@ main {
 
 
 .sidebar-left {
-    min-width: 280px;
+    min-width: 254px;
     min-height: 1200px;
     position: fixed;
     z-index: 1;
@@ -64,12 +66,46 @@ main {
 
 
 .logo-side img {
-    height: 90px;
+    height: 70px;
     padding: 11px;
     margin-top: 10px;
 }
 
 
+
+.sidebar-left a {
+    color: white;
+    font-size: px;
+    vertical-align: middle;
+}
+
+
+
+.header-list span {
+    color: white;
+    font-size: 26px;
+    vertical-align: middle;
+}
+
+
+
+.header-list ul li {
+    margin-top: 8px;
+}
+
+
+.header-list .task-search {
+    padding-right: 3px;
+}
+
+
+.header-list .task-book {
+    padding-right: 7px;
+}
+
+.header-list .txt-10 {
+    font-size: 15px;
+}
 
 
 /*---Center Main */
