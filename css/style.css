@@ -42,7 +42,6 @@ a {
 
 
 main {
-    background-color: red;
     overflow: auto;
     height: calc(100vh - 90px);
     display: flex;
@@ -87,7 +86,9 @@ main {
     vertical-align: middle;
 }
 
-
+.header-list {
+    padding-left: 18px;
+}
 
 .header-list ul li {
     margin-top: 8px;
@@ -118,15 +119,17 @@ main {
 .header-cont {
     height: 70px;
     width: 100%;
-    background: rgb(85, 248, 52);
+    background-color: rgba(0,0,0,0.5);
     position: fixed;
 }
 
 
 .center-cont {
+    background-color: #605656;
+    color: white;
     width: 100%;
-    margin-left: 290px;
-    padding-top: 100px;
+    padding-top: 94px;
+    padding-left: 264px;
 }
 
 
@@ -135,7 +138,7 @@ main {
 
 #footer-app {
     height: 90px;
-    background-color: #a99b9b;
+    background-color: #303030;
     color: white;
     position: fixed;
     width: 100%;
