@@ -36,7 +36,6 @@ img {
 
 
 
-
 /*-----   MAIN   -----*/
 
 
@@ -47,13 +46,31 @@ main {
     display: flex;
 }
 
+
+
 /*---Sidebar---*/
 
+
 .sidebar-left {
-    background-color: rgb(231, 178, 178);
-    min-width: 250px;
+    min-width: 280px;
     min-height: 1200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
 }
+
+
+.logo-side img {
+    height: 90px;
+    padding: 11px;
+    margin-top: 10px;
+}
+
+
+
 
 /*---Center Main */
 
@@ -63,14 +80,17 @@ main {
 
 
 .header-cont {
-  height: 70px;
-  width: 100%;
-  background: rgb(85, 248, 52);
+    height: 70px;
+    width: 100%;
+    background: rgb(85, 248, 52);
+    position: fixed;
 }
 
 
 .center-cont {
     width: 100%;
+    margin-left: 290px;
+    padding-top: 100px;
 }
 
 
