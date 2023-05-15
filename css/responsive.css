@@ -25,23 +25,83 @@
 
 @media screen and (max-width: 576px) {
 
+    /* # SIDEBAR  */
+    
     .sidebar {
-        flex-basis: 15%;
+        flex-basis: 13%;
     }
+
+
     
     .logo-side .logo {
         display: none;
     }
-            
+
+
+    
     .sidebar .small-logo img {
-        margin-left: 13px;
+        margin-left: 14px;
         padding-top: 10px;
         display: block;
     }
+
     
     .header-list .txt-10 {
         display: none;
     }
+
+    .header-list {
+        margin-top: 20px;
+    }
+
+    .task-search {
+        margin-left: 2px;
+    }
+
+    
+    .task-book {
+        margin-left: 3px;
+    }
+
+    
+    .center-list {
+        display: none;
+    }
+
+    
+    .bottom-list {
+        display: none;
+    }
+
+
+    .resp {
+        display: none;
+    }
+
+    hr {
+        display: none;
+    }
+
+    
+    .bottom-2-list {
+        margin-top: 366px;
+    }
+
+
+    .bottom-2-list .bott-sp-down {
+        width: 49%;
+        margin-top: 22px;
+        margin-left: 11px;
+    }
+
+
+    .btn-list {
+        margin-left: 16px;
+    }
+
+
+
+
 
 }
 

@@ -83,11 +83,11 @@ a {
 
 
 
+
 .sidebar a {
     color: white;
-    font-size: px;
-    vertical-align: middle;
 }
+
 
 
 
@@ -98,9 +98,13 @@ a {
 }
 
 
+
+
 .header-list {
     padding-left: 18px;
 }
+
+
 
 
 .header-list ul li {
@@ -123,6 +127,100 @@ a {
 .header-list .txt-10 {
     font-size: 15px;
 }
+
+
+
+
+.grey-plus-btn {
+    background: #c9c9c9;
+    height: 35px;
+    display: inline-block;
+    width: 41px;
+    text-align: center;
+    margin-right: 7px;
+}
+
+
+
+.grey-plus-btn i {
+    padding-top: 9px;
+    color: black;
+}
+
+
+
+
+
+
+.center-list {
+    margin-top: 22px;
+    padding-left: 16px;
+}
+
+
+
+
+.center-list h3 {
+    margin-bottom: 15px;
+}
+
+
+
+
+.bottom-list {
+    line-height: 40px;
+    padding-left: 15px;
+    margin-top: 17px;
+}
+
+
+
+
+
+.bottom-2-list {
+    padding-top: 150px;
+    padding-left: 11px;
+}
+
+
+
+.bottom-2-list .bott-sp {
+    font-size: 18px;
+    vertical-align: middle;
+    margin-right: 3px;
+} 
+
+.bottom-2-list .btn-list {
+    color: lightgrey;
+}
+
+
+
+.bottom-2-list hr {
+    margin-top: 14px;
+    margin-bottom: 14px;
+    width: 90%;
+    border: 1px solid grey;
+}
+
+
+
+.bottom-2-list .bott-sp-down {
+    color: white;
+    font-size: 21px;
+    vertical-align: ;
+    background: grey;
+    border-radius: 43%;
+    display: inline-block;
+    width: 15%;
+    height: 28px;
+    text-align: center;
+    margin-right: 6px;
+} 
+
+
+
+
 
 
 /*-----Main-----*/
