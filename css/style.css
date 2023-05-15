@@ -284,6 +284,47 @@ header a {
     color: white;
 }
 
+/*----- Main ----> SECTION CONTENT MUSIC -----*/
+
+.main-content h1 {
+    color: white;
+}
+
+.main-content {
+
+}
+
+
+
+.gallery img {
+    height: 220px;
+}
+
+
+.gallery {
+    display: flex;
+    max-width: 100%;
+    text-align: center;
+}
+
+
+
+.main-content .gallery li {
+    flex-basis: calc(100% / 6);
+}
+
+
+.gallery h4 {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.gallery .subtitle {
+    color: white;
+}
+
+
 /*-----   FOOTER  -----*/
 
 footer {
