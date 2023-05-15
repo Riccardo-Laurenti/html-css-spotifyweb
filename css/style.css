@@ -229,7 +229,7 @@ a {
 /*-----Main-----*/
 
 main {
-    background-color: dodgerblue;
+    background-color: #41576c;
     flex: 1 1 auto;
     overflow: auto;
 }   
@@ -280,7 +280,9 @@ header a {
     padding: 0 18px;
 }
 
-
+.navbar-main a {
+    color: white;
+}
 
 /*-----   FOOTER  -----*/
 
