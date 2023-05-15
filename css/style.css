@@ -58,12 +58,72 @@ a {
     display: flex;
 }
 
-/*-----Sidebar-----*/
+/*----- Sidebar -----*/
 
 .sidebar {
     background-color: black;
     flex: 0 0 230px;
 }
+
+
+/*-----Sidebar Content -----*/
+
+
+.sidebar .logo {
+    height: 70px;
+    padding: 11px;
+    margin-top: 10px;
+}
+
+
+.sidebar .small-logo img {
+    height: 50px;
+    display: none;
+}
+
+
+
+.sidebar a {
+    color: white;
+    font-size: px;
+    vertical-align: middle;
+}
+
+
+
+.header-list span {
+    color: white;
+    font-size: 26px;
+    vertical-align: middle;
+}
+
+
+.header-list {
+    padding-left: 18px;
+}
+
+
+.header-list ul li {
+    margin-top: 8px;
+}
+
+
+.header-list .task-search {
+    padding-right: 3px;
+}
+
+
+
+.header-list .task-book {
+    padding-right: 7px;
+}
+
+
+
+.header-list .txt-10 {
+    font-size: 15px;
+}
+
 
 /*-----Main-----*/
 

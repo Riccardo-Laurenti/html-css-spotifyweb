@@ -1,8 +1,50 @@
-/* MOBILE FIRST */ 
+/* DESKTOP FIRST */ 
 
-@media  and (min-width: 500px) {
+
+
+
+/* # DA LAPTOP IN GIU */
+
+
+
+/* Queste sono le regole se lo schermo NON supera i 992  */
+@media screen and (max-width: 992px) {
     
 }
 
 
-/* TABLET FIRST */ 
+
+/* # DA TABLET IN GIU */
+/* Queste sono le regole se lo schermo NON supera i 768px  */
+@media screen and (max-width: 768px) {
+    
+}
+
+/*  MOBILE IN GIU */
+/* Queste sono le regole se lo schermo NON supera i 576px  */
+
+@media screen and (max-width: 576px) {
+
+    .sidebar {
+        flex-basis: 15%;
+    }
+    
+    .logo-side .logo {
+        display: none;
+    }
+            
+    .sidebar .small-logo img {
+        margin-left: 13px;
+        padding-top: 10px;
+        display: block;
+    }
+    
+    .header-list .txt-10 {
+        display: none;
+    }
+
+}
+
+
+
+
