@@ -25,9 +25,12 @@ img {
     max-width: 100%;
 }
 
+
 a {
     text-decoration: none;
 }
+
+
 /*----Container----*/
 
 
@@ -38,111 +41,57 @@ a {
 
 
 
-/*-----   MAIN   -----*/
+/*-----      -----*/
 
 
-main {
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.up-content {
+    flex: 1 1 auto;
+    background-color: grey;
     overflow: auto;
-    height: calc(100vh - 90px);
     display: flex;
 }
 
+/*-----Sidebar-----*/
 
+.sidebar {
+    background-color: black;
+    flex: 0 0 230px;
+}
 
-/*---Sidebar---*/
+/*-----Main-----*/
 
+main {
+    background-color: dodgerblue;
+    flex: 1 1 auto;
+    overflow: auto;
+}   
 
-.sidebar-left {
-    min-width: 254px;
-    min-height: 1200px;
-    position: fixed;
-    z-index: 1;
+/*----- Main ----> HEADER -----*/
+
+header {
+    background-color: green;
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid white;
+    position: sticky;
     top: 0;
+    right: 0;
     left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-}
-
-
-.logo-side img {
-    height: 70px;
-    padding: 11px;
-    margin-top: 10px;
-}
-
-
-
-.sidebar-left a {
-    color: white;
-    font-size: px;
-    vertical-align: middle;
-}
-
-
-
-.header-list span {
-    color: white;
-    font-size: 26px;
-    vertical-align: middle;
-}
-
-.header-list {
-    padding-left: 18px;
-}
-
-.header-list ul li {
-    margin-top: 8px;
-}
-
-
-.header-list .task-search {
-    padding-right: 3px;
-}
-
-
-.header-list .task-book {
-    padding-right: 7px;
-}
-
-.header-list .txt-10 {
-    font-size: 15px;
-}
-
-
-/*---Center Main */
-
-.center-main {
-
-}
-
-
-.header-cont {
-    height: 70px;
-    width: 100%;
-    background-color: rgba(0,0,0,0.5);
-    position: fixed;
-}
-
-
-.center-cont {
-    background-color: #605656;
-    color: white;
-    width: 100%;
-    padding-top: 94px;
-    padding-left: 264px;
+    margin-bottom: 20px;
 }
 
 
 
 /*-----   FOOTER  -----*/
 
-#footer-app {
-    height: 90px;
-    background-color: #303030;
-    color: white;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    z-index: 1;;
+footer {
+    flex: 0 0 100px;
+    background-color: grey;
 }
