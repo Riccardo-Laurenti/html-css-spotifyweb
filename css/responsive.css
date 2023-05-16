@@ -9,7 +9,25 @@
 
 /* Queste sono le regole se lo schermo NON supera i 992  */
 @media screen and (max-width: 992px) {
-    
+
+    .main-content h1 {
+        padding-top: 36px;
+    }
+
+
+    .main-content .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+
+
+    .main-content .gallery li {
+        flex-basis: 40%;
+        padding: 15px;
+        text-align: center;
+    }
 }
 
 

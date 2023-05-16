@@ -237,7 +237,7 @@ a {
 /*-----Main-----*/
 
 main {
-    background-color: #41576c;
+    background-color: #24282c;
     flex: 1 1 auto;
     overflow: auto;
 }   
@@ -249,7 +249,6 @@ header {
     background-color: rgb(64, 71, 64, 0.3);
     height: 100px;
     width: 100%;
-    border-bottom: 1px solid white;
     position: sticky;
     top: 0;
     right: 0;
@@ -297,7 +296,10 @@ header a {
 
 .main-content h1 {
     color: white;
+    padding-bottom: 15px;
+    margin-left: 28px;
 }
+
 
 
 .gallery a {
@@ -333,6 +335,40 @@ header a {
 }
 
 
+/*--- Main --> SECOND CONTENT -----*/
+
+
+.second-content h1 {
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 9px;
+}
+
+
+.second-content p {
+    color: lightgrey;
+    margin-bottom: 14px;
+}
+
+
+.second-gallery {
+    display: flex;
+    max-width: 100%;
+    text-align: center;
+}
+
+.second-gallery a {
+    color: white;
+}
+
+.second-gallery img {
+    height: 220px;
+}
+
+
+.bord-rad img {
+    border-radius: 64%;
+}
 /*-----   FOOTER  -----*/
 
 footer {
@@ -344,7 +380,7 @@ footer {
     justify-content: space-between;
 }
 
-/*--LEFT CONTENT */
+/*--LEFT CONTENT FOOTER */
 
 .left-content img {
     height: 66px;
@@ -372,7 +408,7 @@ footer {
     margin: 7px;
 }
 
-/*--CENTER CONTENT */
+/*--CENTER CONTENT FOOTER*/
 
 .icon-center {
     text-align: center;
@@ -409,7 +445,7 @@ footer {
 }
 
 
-/*--RIGHT CONTENT */
+/*--RIGHT CONTENT FOOTER*/
 
 
 .progress-bar-right {
