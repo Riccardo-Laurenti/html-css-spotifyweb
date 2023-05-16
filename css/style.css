@@ -62,7 +62,7 @@ a {
 
 .sidebar {
     background-color: black;
-    flex: 0 0 230px;
+    flex: 0 0 250px;
     padding-bottom: 16px;
 }
 
@@ -286,23 +286,23 @@ header a {
 .navbar-main ul li {
     display: inline-block;
     padding: 0 18px;
+    font-size: 14px;
 }
 
 .navbar-main a {
     color: white;
 }
 
-/*----- Main ----> SECTION CONTENT MUSIC -----*/
+/*--- Main --> SECTION CONTENT MUSIC -----*/
 
 .main-content h1 {
     color: white;
 }
 
-.main-content {
 
+.gallery a {
+    color: white;
 }
-
-
 
 .gallery img {
     height: 220px;
@@ -336,6 +336,109 @@ header a {
 /*-----   FOOTER  -----*/
 
 footer {
+    background-color: rgb(53, 50, 50);
+    color: white;
     flex: 0 0 100px;
-    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+/*--LEFT CONTENT */
+
+.left-content img {
+    height: 66px;
+    vertical-align: middle;
+}
+
+
+
+.name-artist {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 54px;
+    padding-left: 13px;
+}
+
+
+
+.icon-artist {
+    display: inline-block;
+}
+
+
+
+.icon-artist i {
+    margin: 7px;
+}
+
+/*--CENTER CONTENT */
+
+.icon-center {
+    text-align: center;
+    padding-bottom: 17px
+}
+
+.icon-center a {
+    color: white;
+}
+
+
+.icon-center i {
+    padding: 10px;
+}
+
+
+.progress-bar {
+    background-color: #bbbcbd;
+    height: 6px;
+    padding: px;
+    width: 470px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+
+.progress-bar .bar-sp {
+    display: inline-block;
+    height: 6px;
+    width: 40%;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    background: rgb(255 255 255);
+}
+
+
+/*--RIGHT CONTENT */
+
+
+.progress-bar-right {
+    display: inline-block;
+    background-color: #bbbcbd;
+    height: 6px;
+    padding: px;
+    width: 130px;
+    border-radius: 12px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.progress-bar-right .bar-right-span {
+    display: inline-block;
+    height: 6px;
+    width: 40%;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    background: rgb(255 255 255);
+}
+
+
+.right-content i {
+    margin: 8px;
+}
+
+
+
+
+
+
