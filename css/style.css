@@ -246,7 +246,7 @@ main {
 /*----- Main ----> HEADER -----*/
 
 header {
-    background-color: rgb(64, 71, 64, 0.3);
+    background-color: rgb(4 4 4 / 30%);
     height: 100px;
     width: 100%;
     position: sticky;
@@ -315,12 +315,13 @@ header a {
     display: flex;
     max-width: 100%;
     text-align: center;
+    margin-left: 16px;
 }
 
 
 
 .main-content .gallery li {
-    flex-basis: calc(100% / 6);
+    flex-basis: calc(90% / 6);
 }
 
 
@@ -342,13 +343,17 @@ header a {
     color: white;
     margin-top: 40px;
     margin-bottom: 9px;
+    margin-left: 28px;
 }
+
 
 
 .second-content p {
     color: lightgrey;
     margin-bottom: 14px;
+    margin-left: 28px;
 }
+
 
 
 .second-gallery {
@@ -366,9 +371,21 @@ header a {
 }
 
 
+.second-gallery li {
+    padding-left: 27px;
+}
+
+
 .bord-rad img {
     border-radius: 64%;
 }
+
+
+.bord-rad {
+    margin-bottom: 40px;
+}
+
+
 /*-----   FOOTER  -----*/
 
 footer {
