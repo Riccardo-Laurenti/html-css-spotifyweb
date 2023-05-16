@@ -54,7 +54,7 @@ a {
 .up-content {
     flex: 1 1 auto;
     background-color: grey;
-    overflow: auto;
+    overflow: hidden;
     display: flex;
 }
 
@@ -68,7 +68,14 @@ a {
 
 .calc-sidebar {
     height: calc(100% - 80px);
+    overflow-y: hidden;
 }
+
+
+.sidebar ul {
+    overflow-y: auto ;
+}
+
 /*-----Sidebar Content -----*/
 
 
@@ -174,6 +181,7 @@ a {
     line-height: 40px;
     padding-left: 15px;
     margin-top: 17px;
+    overflow: hidden;
 }
 
 
