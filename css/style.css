@@ -28,6 +28,7 @@ img {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 
@@ -398,6 +399,8 @@ footer {
 }
 
 /*--LEFT CONTENT FOOTER */
+
+
 .left-content {
     padding-left: 20px;
 }
@@ -417,6 +420,10 @@ footer {
     padding-left: 13px;
 }
 
+
+.name-artist h4 {
+    margin-left: 1px;
+ }
 
 
 .icon-artist {
