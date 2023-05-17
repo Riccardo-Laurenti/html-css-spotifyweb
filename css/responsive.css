@@ -137,6 +137,37 @@
     }
 
 
+
+
+    .icon-center {
+        width: %;
+    }
+
+    .progress-bar {
+        width:100% ;
+    }
+
+
+    .right-content {
+        width: 20%;
+    }
+
+    .progress-bar-right {
+        width: 20%;
+    }
+
+    .left-content {
+        width: 70%;
+    }
+
+    .left-content i {
+        width: 10%;
+    }
+
+
+
+
+
 }
 
 

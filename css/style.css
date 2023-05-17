@@ -398,6 +398,10 @@ footer {
 }
 
 /*--LEFT CONTENT FOOTER */
+.left-content {
+    padding-left: 20px;
+}
+
 
 .left-content img {
     height: 66px;
@@ -463,6 +467,10 @@ footer {
 
 
 /*--RIGHT CONTENT FOOTER*/
+
+.right-content {
+    padding-right: 20px;
+}
 
 
 .progress-bar-right {
