@@ -452,6 +452,18 @@ footer {
     padding: 10px;
 }
 
+.d-minute-flex {
+    display: flex;
+    align-items: center;
+}
+
+.min-left {
+    padding-right: 7px;
+}
+
+.min-right {
+    padding-left: 7px;
+}
 
 .progress-bar {
     background-color: #bbbcbd;
